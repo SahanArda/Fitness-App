@@ -10,7 +10,7 @@ import ExerciseDetail from './pages/ExerciseDetail'
 
 const App = () => {
   return (
-    <Box className="400px">
+    <Box className="400px" sx={{width: {xl: "1488px"}}} m="auto">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
