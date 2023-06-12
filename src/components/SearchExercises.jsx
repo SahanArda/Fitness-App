@@ -52,6 +52,7 @@ const SearchExercises = ( setExercises, bodyPart, setBodyPart) => {
             width: {lg: "800px", xs: "350px"},
             backgroundColor: "#FFF",
             borderRadius: "40x",
+            mb: "40px",
         }}
         height="76px"
         value={search}
