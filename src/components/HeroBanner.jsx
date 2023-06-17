@@ -32,7 +32,7 @@ const HeroBanner = () => {
         color="#FF2625"
         sx={{
             opacity: "0.1",
-            display: {lg: "block", xs: "none"},
+            display: {lg: "block", md: "block", xs: "none"},
         }} 
         fontSize="200px">
             Exercise
