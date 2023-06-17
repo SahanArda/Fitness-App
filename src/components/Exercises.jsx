@@ -5,6 +5,7 @@ import { Box, Stack, Typography } from '@mui/material'
 import { exercisesOptions, fetchData } from '../utils/fetchData'
 
 const Exercises = ({exercises, setExercises, bodyPart}) => {
+  console.log(exercises)
   return (
     <Box id="exercises"
       sx={{mt: {lg: "110px"}}}
@@ -18,7 +19,7 @@ const Exercises = ({exercises, setExercises, bodyPart}) => {
       <Stack direction="row" sx={{ gap: {lg: "110px", xs: "50px"}}}
       flexWrap="wrap"
       justifyContent="center">
-        {exercises.map((exercise, index) => ( //error here
+        {exercises.map((exercise, index) => (
           <p>{exercise.name}</p>
         ))}
 
